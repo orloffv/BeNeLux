@@ -1,0 +1,19 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "Benilux trip",
+    "owner": "Orloffv",
+    "description": "Benilux trip"
+  },
+  "require": {
+    "_": "underscore"
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "jade": {
+    "pretty": true
+  },
+  "ignore": ["**/.DS_Store"]
+}

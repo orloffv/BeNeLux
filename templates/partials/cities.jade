@@ -1,0 +1,11 @@
+-var cities = [];
+mixin cities(countryName)
+    -_.each(contents['countries'], function(country, countryTitle) {
+        -if (countryTitle === countryName) {
+            -_.each(country, function(city, title) {
+                -if (title !== 'index.md') {
+                    -cities.push(city['index.md']);
+                -};
+            -});
+        -}
+    -});

@@ -1,0 +1,25 @@
+-var breadcrumbs = [{url: '/', metadata: {title: 'Страны'}}];
+mixin breadcrumbs(countryName, cityName)
+    -if (countryName) {
+        -_.each(contents['countries'], function(country, countryTitle) {
+            -if (countryTitle === countryName) {
+                -breadcrumbs.push(country['index.md']);
+                -if (cityName) {
+                    -_.each(country, function(city, title) {
+                        -if (title === cityName) {
+                            -breadcrumbs.push(city['index.md']);
+                        -};
+                    -});
+                -}
+            -}
+        -});
+    -}
+    -_.each(breadcrumbs, function(object, key) {
+        -if ((cityName && key == 2) || (!cityName && countryName && key == 1) || (!cityName && !countryName && key == 0)) {
+            li.active
+                =object.metadata.title
+        -} else {
+            li
+                a(href=object.url) #{object.metadata.title}
+        -}
+    -});

@@ -1,0 +1,10 @@
+extends layout
+block breadcrumb
+    include partials/breadcrumbs
+    mixin breadcrumbs(page.metadata.country, page.metadata.city)
+
+block content
+    include partials/city
+    article.article
+        section.content
+            mixin city(page)

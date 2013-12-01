@@ -1,0 +1,13 @@
+extends layout
+
+block breadcrumb
+    include partials/breadcrumbs
+    mixin breadcrumbs()
+
+block content
+    include partials/countries
+    ul
+        each country in countries
+            li
+                a(href=country.url) #{country.metadata.title}
+

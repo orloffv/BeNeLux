@@ -1,0 +1,30 @@
+mixin city(page)
+    -var places = page.parent['data.json'].metadata;
+    table
+        thead
+            tr
+                th.name Название
+                th.description Описание
+                th.time Время работы
+                th.price Цена
+                th.address Адрес
+                th.site Сайт
+                th.photo Фото
+        tbody
+            -_.each(places, function(place) {
+                tr
+                    td.name
+                        !{place.name}
+                    td.description
+                        !{place.description}
+                    td.time
+                        !{place.time}
+                    td.price
+                        !{place.price}
+                    td.address
+                        !{place.address}
+                    td.site
+                        !{place.site}
+                    td.photo
+                        img(src=place.photo)
+            -});

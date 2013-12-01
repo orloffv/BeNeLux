@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Замок графов Фландрии (Gravensteen)",
+        "description": "Гравенстен был построен в 1180 году и является единственным средневековым замком во Фландрии, оборонительная система которого сохранилась практически нетронутой до настоящего времени. На протяжении нескольких веков замок использовался графами Фландрии в качестве резиденции. Позднее Гравенстен также служил монетным двором, местом проведения судебных заседаний, тюрьмой и текстильной фабрикой.",
+        "time": "9:00-17:00",
+        "price": "4€",
+        "address": "Sint-Veerleplein 11, 9000 Gent <a href='http://www.gravensteengent.be/en/content/accessibility-parking'>как добраться</a>",
+        "site": "<a href='http://www.gravensteengent.be/en/'>gravensteengent.be</a> <a href='http://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%B3%D1%80%D0%B0%D1%84%D0%BE%D0%B2_%D0%A4%D0%BB%D0%B0%D0%BD%D0%B4%D1%80%D0%B8%D0%B8'>википедия</a>",
+        "photo": "gravsteen.jpg"
+    },
+    {
+        "name": "Замок Герерда Дьявола (Geeraard de Duivelsteen)",
+        "description": "Замок Герерда Дьявола находится примерно в 800 м к юго-востоку от Графского замка.В 14 веке замок стал собственностью города. Затем, в разное время замок служил оружейным складом, монастырем, школой, тюрьмой и даже домом для умалишенных. Он также играл важную роль в защите гентского торгового порта Portus Ganda, стоявшего у истоков формирования города.В конце 19 века он был выкуплен государством, и после пристройки нового крыла в 1904 году в нем поместился государственный архив. Тогда же рядом с замком был разбит небольшой сад. Подземный этаж замка охватывает площадь около 560 кв. м, являясь, таким образом, одним из самых больших в Бельгии.",
+        "time": "только снаружи",
+        "price": "",
+        "address": "Geraard de Duivelstraat 1, Gent",
+        "site": "",
+        "photo": "geeraard-de-duivelsteen.jpg"
+    },
+    {
+        "name": "Кафедральный собор Св. Бавона (St. Bavo's Cathedral)",
+        "description": "Современное грандиозное здание выполнено в стиле \"готика\", но некогда – в 942 году, на его месте стояла лишь маленькая деревянная церквушка. Судя по всему, Святой Бавон был весьма почитаем жителями Гента, так как церкви в его честь возводились с каждым разом всё больше и красивее. Главная достопримечательность собора – Гентский алтарь. Алтарь принадлежит кисти братьев Губерта и Яна ван Эйк и помимо своей художественной ценности знаменит ещё тем, что в его написании использовались новые составы масляных красок. Завоеватели, проходящие через земли Гента, не раз пытались уничтожить алтарь, а австрийский император приказывал \"одеть\" изображённых нагими Адама и Еву. Сегодня оригинал хранится под стеклом, а на всеобщее обозрение выставлена лишь копия. ",
+        "time": "8:30-17:00",
+        "price": "4€",
+        "address": "Hoofdkerkstraat 1, Gent",
+        "site": "<a href='http://users.skynet.be/sintbaafskathedraal-gent/EN_visit.html'>sintbaafskathedraal.be</a>",
+        "photo": "st-bavo.jpg"
+    },
+    {
+        "name": "Laarne Castle",
+        "description": "",
+        "time": "?",
+        "price": "?",
+        "address": "Laarne Castle, Eekhoekstraat 5, 9270 Laarne",
+        "site": "<a href='http://www.slotvanlaarne.be/'>slotvanlaarne.be</a>",
+        "photo": "laarne_castle.jpg"
+    },
+    {
+        "name": "St Bavo's Abbey (руины)",
+        "description": "",
+        "time": "14:00-18:00(пт-вс)",
+        "price": "?",
+        "address": "Voorhoutkaai/Spanjaardstraat, Gent",
+        "site": "",
+        "photo": "sint-bavo-abbey.jpg"
+    },
+    {
+        "name": "Belfort Gent",
+        "description": "Белфорт был символом самостоятельности и независимости города  Гента. Его строительство началось в 1313 году. ",
+        "time": "10:00-18:00",
+        "price": "3.75€",
+        "address": "Belfort van Gent, Gent",
+        "site": "<a href='http://www.belfortgent.be/rus/praktischru.html'>belfortgent.be</a>",
+        "photo": "gent_belfort.jpg"
+    },
+    {
+        "name": "St James' Church",
+        "description": "",
+        "time": "?",
+        "price": "0€",
+        "address": "Bij Sint-Jacobs, Gent",
+        "site": "",
+        "photo": "st-james-church.jpg"
+    },
+    {
+        "name": "Ghent Town Hall (Stadhuis)",
+        "description": "",
+        "time": "?",
+        "price": "5€",
+        "address": "Stadhuis, Botermarkt 1, Gent",
+        "site": "",
+        "photo": "ghent-town-hall-stadhuis.jpg"
+    },
+    {
+        "name": "Our Lady Ter Hoyen Beguinage",
+        "description": "Люди спрашивают меня, где вы можете найти места, которые выдыхают спокойствие. Этот beguinage - превосходное место, чтобы прогуляться через мощеные улицы, прочитать книгу по скамье или лежать на зеленом пастбище. Этот beguinage был основан в 1234, но большинство зданий с 17-ого столетия.",
+        "time": "6:30-22:00",
+        "price": "0€",
+        "address": "Lange Violettestraat 235, Gent",
+        "site": "<a href='http://users.telenet.be/kleinbegijnhof/'>http://www.kleinbegijnhof-gent.be/</a>",
+        "photo": "our-lady-ter-hoyen-beguinage.jpg"
+    }
+]
