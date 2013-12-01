@@ -278,3 +278,11 @@ section.content table a{
     text-decoration: underline;
 }
 
+#photoModal {
+    width: 90%;
+    left:5%;
+}
+
+#photoModal .modal-body-content img {
+    width:100%;
+}

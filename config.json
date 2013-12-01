@@ -1,9 +1,9 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "Benilux trip",
+    "name": "Benelux trip",
     "owner": "Orloffv",
-    "description": "Benilux trip"
+    "description": "Benelux trip"
   },
   "require": {
     "_": "underscore"
