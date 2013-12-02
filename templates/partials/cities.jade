@@ -9,3 +9,7 @@ mixin cities(countryName)
             -});
         -}
     -});
+
+    -cities = _.sortBy(cities, function(city) {
+        -return city.metadata.title;
+    -});

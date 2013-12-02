@@ -1,3 +1,5 @@
--var countries = _.map(contents['countries'], function(country, title) {
+-var countries = _.chain(contents['countries']).map(function(country, title) {
     -return country['index.md'];
--});
+-}).sortBy(function(country) {
+    -return country.metadata.title;
+-}).value();
